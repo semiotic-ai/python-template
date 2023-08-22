@@ -46,6 +46,8 @@ For example, `feat: adding a CSV writer` is incorrect.
 You would use `feat: add a CSV writer`.
 One way to think about it is using the phrase `This commit will <subject>`.
 For our previous example, `This commit will add a CSV writer`.
+You should also try to ensure that commit subjects are 50 characters or fewer (including the prefix, e.g., `feat:`).
+If you need to expound further, consider doing so in the commit body.
 Tools such as [Emacs magit](https://magit.vc/), [fugitive.vim](https://github.com/tpope/vim-fugitive) and [VSCode Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview) have nice interfaces for staging chunks within files.
 These can help you in following this rule.
 
