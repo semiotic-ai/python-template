@@ -41,6 +41,11 @@ A good rule of thumb is that if it is difficult to come up with a concise, descr
 4. Commits must pass unit tests, static analysis, and code formatting.
 Ideally, you should also run them against acceptance tests.
 5. The commit message must follow practices from [Conventional Commits](https://kapeli.com/cheat_sheets/Conventional_Commits.docset/Contents/Resources/Documents/index).
+A key rule of conventional commits that people often forget is that the subject should be in the imperative mood.
+For example, `feat: adding a CSV writer` is incorrect.
+You would use `feat: add a CSV writer`.
+One way to think about it is using the phrase `This commit will <subject>`.
+For our previous example, `This commit will add a CSV writer`.
 Tools such as [Emacs magit](https://magit.vc/), [fugitive.vim](https://github.com/tpope/vim-fugitive) and [VSCode Source Control](https://code.visualstudio.com/docs/sourcecontrol/overview) have nice interfaces for staging chunks within files.
 These can help you in following this rule.
 
